@@ -29,15 +29,15 @@ A production-quality Retrieval Augmented Generation (RAG) system that enables us
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                       RAG System                             │
-│                                                              │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐     │
-│  │   Document   │  │    Vector    │  │     LLM      │     │
-│  │  Processor   │→ │    Store     │→ │  Interface   │     │
-│  └──────────────┘  └──────────────┘  └──────────────┘     │
+│                       RAG System                            │
+│                                                             │
+│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐       │
+│  │   Document   │  │    Vector    │  │     LLM      │       │
+│  │  Processor   │→ │    Store     │→ │  Interface   │       │
+│  └──────────────┘  └──────────────┘  └──────────────┘       │
 │         ↓                 ↓                  ↓              │
-│    Text/PDF          ChromaDB            OpenAI            │
-│    Chunking          Embeddings           GPT-4            │
+│    Text/PDF          ChromaDB            OpenAI             │
+│    Chunking          Embeddings           GPT-4             │
 └─────────────────────────────────────────────────────────────┘
 ```
 
